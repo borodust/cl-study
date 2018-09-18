@@ -1,0 +1,64 @@
+* Введение
+
+** Подготовка
+
+- Portacle: https://portacle.github.io/
+
+- Emacs
+ - Windows: https://www.gnu.org/software/emacs/download.html#windows
+ - macOS: https://www.gnu.org/software/emacs/download.html#macos
+ - Linux:
+#+BEGIN_SRC bash
+sudo apt-get install emacs
+
+sudo pacman -S emacs
+
+nix-env -i emacs
+#+END_SRC
+
+- Установить SBCL:
+ - http://www.sbcl.org/platform-table.html
+  - macOS: через homebrew
+#+BEGIN_SRC bash
+brew install sbcl
+#+END_SRC
+  - Linux:
+#+BEGIN_SRC bash
+sudo apt-get install sbcl
+
+sudo pacman -S sbcl
+
+nix-env -i sbcl
+#+END_SRC
+
+- SLIME for Emacs
+ - Добавить репозиторий MELPA в Emacs: https://melpa.org/#/getting-started
+ - M-x list-packages
+   - Найти и установить SLIME (Superior Lisp Interaction Mode for Emacs)
+ - Настроить SLIME: https://common-lisp.net/project/slime/doc/html/Installation.html#Installation
+
+** Git
+
+** Демонстрация
+
+** Общие понятия
+
+- Программа
+ - Данные -> Магия -> Результат
+ - Программирование - решение паззлов
+ - Программирование - инструкция машине
+
+** Примитивы
+http://www.gigamonkeys.com/book/
+http://lisper.ru/pcl/
+
+- REPL
+- Формы и символы
+ - ASS-expressions -> SEX-P -> Forms
+ - Первый символ
+- Переменные
+ - Числа, строки
+ - Глобальные, локальные
+- Ветвления
+- Циклы
+- Функции
