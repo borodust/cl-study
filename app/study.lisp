@@ -11,4 +11,4 @@
 
 
 (defun run ()
-  (start 'study-game :opengl-version '(2 1)))
+  (start 'study-game :opengl-version '(2 1) :viewport-resizable t))
